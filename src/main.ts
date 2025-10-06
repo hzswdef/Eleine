@@ -43,11 +43,10 @@ async function bootstrap() {
     });
   }
 
-  // @TODO: Configure CORS properly.
   app.enableCors({
-    origin: "http://localhost:5173",
+    origin: configService.get("app.corsOrigins") || [],
     methods: "GET,HEAD,PATCH,POST,DELETE,OPTIONS",
-    credentials: true,
+    credentials: false,
   });
 
   await app.listen(configService.get("app.port"));
