@@ -1,0 +1,7 @@
+.layout {
+  @apply w-full;
+}
+
+.layoutContent {
+  @apply box-border w-full pl-[--layout-sidebar-width] pt-16;
+}

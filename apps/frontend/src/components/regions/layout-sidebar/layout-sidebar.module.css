@@ -1,0 +1,3 @@
+.layoutSidebar {
+  @apply w-[--layout-sidebar-width];
+}
