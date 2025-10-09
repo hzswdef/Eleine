@@ -1,0 +1,15 @@
+.spacingSm {
+  @apply mb-0.5 mt-1;
+}
+
+.spacingMd {
+  @apply mb-1 mt-2;
+}
+
+.spacingLg {
+  @apply mb-2 mt-4;
+}
+
+.spacingXl {
+  @apply mb-3 mt-6;
+}

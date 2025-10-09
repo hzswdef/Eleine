@@ -1,0 +1,28 @@
+.accordionTrigger {
+  @apply justify-start gap-2;
+}
+
+.registrarLogo {
+  @apply h-5 w-5 rounded-sm;
+}
+
+.domainHead {
+  @apply w-64;
+}
+
+.registeredHead,
+.expirationHead {
+  @apply w-32;
+}
+
+.actionsHead {
+  @apply w-[4.25rem] text-right;
+}
+
+.actionsCell {
+  @apply ml-auto text-blue-400;
+}
+
+.actionsCellButton {
+  @apply ml-auto block;
+}

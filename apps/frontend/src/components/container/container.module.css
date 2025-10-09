@@ -1,0 +1,7 @@
+.containerOuter {
+  @apply w-full;
+}
+
+.containerInner {
+  @apply mx-auto my-0 w-full max-w-[1140px];
+}
